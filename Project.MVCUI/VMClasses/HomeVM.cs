@@ -9,7 +9,8 @@ namespace Project.MVCUI.VMClasses
     public class HomeVM
     {
         public Banner Banner { get; set; }
-        public List<Service> services { get; set; }
+        public List<Service> Services { get; set; }
         public List<Product> Products { get; set; }
+        public List<Team> Teams { get; set; }
     }
 }

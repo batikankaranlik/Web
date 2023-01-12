@@ -21,7 +21,7 @@ namespace Project.ENTITIES.Models
 
 
        // [Compare("Password", ErrorMessage = "Girilen şifreler eşleşmiyor.")]
-        public string ConfirmPassword { get; set; }
+      //  public string ConfirmPassword { get; set; }
         //public Guid ActivationCode { get; set; }
         public bool Active { get; set; }
        // [Required(ErrorMessage = "Girilmesi Zorunludur")]

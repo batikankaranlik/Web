@@ -97,6 +97,128 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="OuterTools\admin1\assets\css\demo.css" />
+    <Content Include="OuterTools\admin1\assets\img\avatars\1.png" />
+    <Content Include="OuterTools\admin1\assets\img\avatars\5.png" />
+    <Content Include="OuterTools\admin1\assets\img\avatars\6.png" />
+    <Content Include="OuterTools\admin1\assets\img\avatars\7.png" />
+    <Content Include="OuterTools\admin1\assets\img\backgrounds\18.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\1.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\11.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\12.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\13.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\17.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\18.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\19.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\2.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\20.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\3.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\4.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\5.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\elements\7.jpg" />
+    <Content Include="OuterTools\admin1\assets\img\favicon\favicon.ico" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\asana.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\behance.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\dribbble.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\facebook.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\github.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\google.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\instagram.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\mailchimp.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\slack.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\brands\twitter.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\cc-primary.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\cc-success.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\cc-warning.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\chart-success.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\chart.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\paypal.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\wallet-info.png" />
+    <Content Include="OuterTools\admin1\assets\img\icons\unicons\wallet.png" />
+    <Content Include="OuterTools\admin1\assets\img\illustrations\girl-doing-yoga-light.png" />
+    <Content Include="OuterTools\admin1\assets\img\illustrations\man-with-laptop-light.png" />
+    <Content Include="OuterTools\admin1\assets\img\illustrations\page-misc-error-light.png" />
+    <Content Include="OuterTools\admin1\assets\img\layouts\layout-container-light.png" />
+    <Content Include="OuterTools\admin1\assets\img\layouts\layout-fluid-light.png" />
+    <Content Include="OuterTools\admin1\assets\img\layouts\layout-without-menu-light.png" />
+    <Content Include="OuterTools\admin1\assets\img\layouts\layout-without-navbar-light.png" />
+    <Content Include="OuterTools\admin1\assets\js\config.js" />
+    <Content Include="OuterTools\admin1\assets\js\dashboards-analytics.js" />
+    <Content Include="OuterTools\admin1\assets\js\extended-ui-perfect-scrollbar.js" />
+    <Content Include="OuterTools\admin1\assets\js\form-basic-inputs.js" />
+    <Content Include="OuterTools\admin1\assets\js\main.js" />
+    <Content Include="OuterTools\admin1\assets\js\pages-account-settings-account.js" />
+    <Content Include="OuterTools\admin1\assets\js\ui-modals.js" />
+    <Content Include="OuterTools\admin1\assets\js\ui-popover.js" />
+    <Content Include="OuterTools\admin1\assets\js\ui-toasts.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\css\core.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\css\pages\page-account-settings.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\css\pages\page-auth.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\css\pages\page-icons.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\css\pages\page-misc.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\css\theme-default.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\fonts\boxicons.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\fonts\boxicons\boxicons.svg" />
+    <Content Include="OuterTools\admin1\assets\vendor\js\bootstrap.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\js\helpers.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\js\menu.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\apex-charts\apex-charts.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\apex-charts\apexcharts.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\highlight\highlight-github.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\highlight\highlight.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\highlight\highlight.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\jquery\jquery.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\masonry\masonry.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\perfect-scrollbar\perfect-scrollbar.js" />
+    <Content Include="OuterTools\admin1\assets\vendor\libs\popper\popper.js" />
+    <Content Include="OuterTools\admin1\html\auth-forgot-password-basic.html" />
+    <Content Include="OuterTools\admin1\html\auth-login-basic.html" />
+    <Content Include="OuterTools\admin1\html\auth-register-basic.html" />
+    <Content Include="OuterTools\admin1\html\cards-basic.html" />
+    <Content Include="OuterTools\admin1\html\extended-ui-perfect-scrollbar.html" />
+    <Content Include="OuterTools\admin1\html\extended-ui-text-divider.html" />
+    <Content Include="OuterTools\admin1\html\form-layouts-horizontal.html" />
+    <Content Include="OuterTools\admin1\html\form-layouts-vertical.html" />
+    <Content Include="OuterTools\admin1\html\forms-basic-inputs.html" />
+    <Content Include="OuterTools\admin1\html\forms-input-groups.html" />
+    <Content Include="OuterTools\admin1\html\icons-boxicons.html" />
+    <Content Include="OuterTools\admin1\html\index.html" />
+    <Content Include="OuterTools\admin1\html\layouts-blank.html" />
+    <Content Include="OuterTools\admin1\html\layouts-container.html" />
+    <Content Include="OuterTools\admin1\html\layouts-fluid.html" />
+    <Content Include="OuterTools\admin1\html\layouts-without-menu.html" />
+    <Content Include="OuterTools\admin1\html\layouts-without-navbar.html" />
+    <Content Include="OuterTools\admin1\html\pages-account-settings-account.html" />
+    <Content Include="OuterTools\admin1\html\pages-account-settings-connections.html" />
+    <Content Include="OuterTools\admin1\html\pages-account-settings-notifications.html" />
+    <Content Include="OuterTools\admin1\html\pages-misc-error.html" />
+    <Content Include="OuterTools\admin1\html\pages-misc-under-maintenance.html" />
+    <Content Include="OuterTools\admin1\html\tables-basic.html" />
+    <Content Include="OuterTools\admin1\html\ui-accordion.html" />
+    <Content Include="OuterTools\admin1\html\ui-alerts.html" />
+    <Content Include="OuterTools\admin1\html\ui-badges.html" />
+    <Content Include="OuterTools\admin1\html\ui-buttons.html" />
+    <Content Include="OuterTools\admin1\html\ui-carousel.html" />
+    <Content Include="OuterTools\admin1\html\ui-collapse.html" />
+    <Content Include="OuterTools\admin1\html\ui-dropdowns.html" />
+    <Content Include="OuterTools\admin1\html\ui-footer.html" />
+    <Content Include="OuterTools\admin1\html\ui-list-groups.html" />
+    <Content Include="OuterTools\admin1\html\ui-modals.html" />
+    <Content Include="OuterTools\admin1\html\ui-navbar.html" />
+    <Content Include="OuterTools\admin1\html\ui-offcanvas.html" />
+    <Content Include="OuterTools\admin1\html\ui-pagination-breadcrumbs.html" />
+    <Content Include="OuterTools\admin1\html\ui-progress.html" />
+    <Content Include="OuterTools\admin1\html\ui-spinners.html" />
+    <Content Include="OuterTools\admin1\html\ui-tabs-pills.html" />
+    <Content Include="OuterTools\admin1\html\ui-toasts.html" />
+    <Content Include="OuterTools\admin1\html\ui-tooltips-popovers.html" />
+    <Content Include="OuterTools\admin1\html\ui-typography.html" />
+    <Content Include="OuterTools\admin1\js\bootstrap.js" />
+    <Content Include="OuterTools\admin1\js\helpers.js" />
+    <Content Include="OuterTools\admin1\js\menu.js" />
+    <Content Include="OuterTools\admin1\tasks\build.js" />
+    <Content Include="OuterTools\admin1\tasks\prod.js" />
     <Content Include="OuterTools\Admin\.gitignore" />
     <Content Include="OuterTools\Admin\404.html" />
     <Content Include="OuterTools\Admin\blank.html" />
@@ -1826,6 +1948,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\AdminController.cs" />
+    <Compile Include="AuthenticationClasses\AdminAuthentication.cs" />
+    <Compile Include="AuthenticationClasses\MemberAuthentication.cs" />
     <Compile Include="Controllers\HomePageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -2013,10 +2138,16 @@
     <Content Include="OuterTools\Admin\vendor\fontawesome-free\webfonts\fa-solid-900.woff2" />
     <Content Include="OuterTools\Admin\vendor\jquery\jquery.min.map" />
     <Content Include="OuterTools\Admin\vendor\jquery\jquery.slim.min.map" />
+    <Content Include="OuterTools\admin1\assets\vendor\fonts\boxicons\boxicons.eot" />
+    <Content Include="OuterTools\admin1\assets\vendor\fonts\boxicons\boxicons.ttf" />
+    <Content Include="OuterTools\admin1\assets\vendor\fonts\boxicons\boxicons.woff" />
+    <Content Include="OuterTools\admin1\assets\vendor\fonts\boxicons\boxicons.woff2" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\HomePage\Index.cshtml" />
+    <Content Include="Views\Admin\AdminPage.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2032,10 +2163,6 @@
     <ProjectReference Include="..\Project.BLL\Project.BLL.csproj">
       <Project>{5C377FF6-D215-430B-BE3E-002F6246D79D}</Project>
       <Name>Project.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Project.DAL\Project.DAL.csproj">
-      <Project>{35180916-F60E-4F50-8EA0-7246A2A4B383}</Project>
-      <Name>Project.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Project.ENTITIES\Project.ENTITIES.csproj">
       <Project>{C63723F9-77FF-4829-B2BB-7527DA5F79B8}</Project>

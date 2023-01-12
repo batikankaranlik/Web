@@ -18,6 +18,7 @@ namespace Project.DAL.StrategyPattern
             au.UserName = "BK";
             au.Password = "123";
             au.Email = "xxxxxx";
+            
             au.Role = ENTITIES.Enums.UserRole.Admin;
 
             context.AppUsers.Add(au);
@@ -25,7 +26,7 @@ namespace Project.DAL.StrategyPattern
             
             AppUser ap = new AppUser();
             ap.Active = true;
-            ap.UserName = "BK";
+            ap.UserName = "dgk";
             ap.Password = "123";
             ap.Email = "xxxxxx";
             ap.Role = ENTITIES.Enums.UserRole.Member;
@@ -51,24 +52,24 @@ namespace Project.DAL.StrategyPattern
             context.Products.Add(p);
             context.SaveChanges(); 
             Product p1 = new Product();
-            p.Name = "deneme1";
-            p.SubTitle = "asdasdasadasdasdasdasdasdasd1";
-            p.Category = "denemcatogry1";
-            p.Description = "asdasdasdasdasdsadasdasdsa1";
+            p1.Name = "deneme1";
+            p1.SubTitle = "asdasdasadasdasdasdasdasdasd1";
+            p1.Category = "denemcatogry1";
+            p1.Description = "asdasdasdasdasdsadasdasdsa1";
             context.Products.Add(p1);
             context.SaveChanges();
             Product p2 = new Product();
-            p.Name = "deneme2";
-            p.SubTitle = "asdasdasadasdasdasdasdasdasd2";
-            p.Category = "denemcatogry2";
-            p.Description = "asdasdasdasdasdsadasdasdsa2";
+            p2.Name = "deneme2";
+            p2.SubTitle = "asdasdasadasdasdasdasdasdasd2";
+            p2.Category = "denemcatogry2";
+            p2.Description = "asdasdasdasdasdsadasdasdsa2";
             context.Products.Add(p2);
             context.SaveChanges(); 
             Product p3 = new Product();
-            p.Name = "deneme3";
-            p.SubTitle = "asdasdasadasdasdasdasdasdasd3";
-            p.Category = "denemcatogry3";
-            p.Description = "asdasdasdasdasdsadasdasdsa3";
+            p3.Name = "deneme3";
+            p3.SubTitle = "asdasdasadasdasdasdasdasdasd3";
+            p3.Category = "denemcatogry3";
+            p3.Description = "asdasdasdasdasdsadasdasdsa3";
             context.Products.Add(p3);
             context.SaveChanges();
 
@@ -79,15 +80,15 @@ namespace Project.DAL.StrategyPattern
             context.Services.Add(s);
             context.SaveChanges();
             Service s1 = new Service();
-            s.Icon = "";
-            s.Title = "denemeservice1";
-            s.Description = "denemeeeeeeee1";
+            s1.Icon = "";
+            s1.Title = "denemeservice1";
+            s1.Description = "denemeeeeeeee1";
             context.Services.Add(s1);
             context.SaveChanges();
             Service s2 = new Service();
-            s.Icon = "";
-            s.Title = "denemeservice2";
-            s.Description = "denemeeeeeeee2";
+            s2.Icon = "";
+            s2.Title = "denemeservice2";
+            s2.Description = "denemeeeeeeee2";
             context.Services.Add(s2);
             context.SaveChanges();
 
@@ -98,15 +99,15 @@ namespace Project.DAL.StrategyPattern
             context.Teams.Add(t);
             context.SaveChanges(); 
             Team t1 = new Team();
-            t.ProfileImage = "";
-            t.NameSurname = "deneme deneme1";
-            t.Title = "dsadasdasdasdasdasd1";
+            t1.ProfileImage = "";
+            t1.NameSurname = "deneme deneme1";
+            t1.Title = "dsadasdasdasdasdasd1";
             context.Teams.Add(t1);
             context.SaveChanges(); 
             Team t2 = new Team();
-            t.ProfileImage = "";
-            t.NameSurname = "deneme deneme2";
-            t.Title = "dsadasdasdasdasdasd2";
+            t2.ProfileImage = "";
+            t2.NameSurname = "deneme deneme2";
+            t2.Title = "dsadasdasdasdasdasd2";
             context.Teams.Add(t2);
             context.SaveChanges();
 

@@ -1,6 +1,6 @@
 ﻿using Project.BLL.DesignPatterns.genericRepository.ConcRep;
 using Project.BLL.DesignPatterns.SingletonPattern;
-using Project.DAL.ContextClasses;
+
 using Project.MVCUI.VMClasses;
 using System;
 using System.Collections.Generic;
@@ -13,21 +13,33 @@ namespace Project.MVCUI.Controllers
     
     public class HomePageController : Controller
     {
-        protected MyContext _db;
+        
         BannerRepository _Brep;
+        ServiceRepository _sRep;
+        ProductRepository _sProduct;
+        TeamRepository _sTeam;
         // GET: HomePage
         public HomePageController()
         {
-            _db = DBTool.DBInstance;
+            
             _Brep = new BannerRepository();
+            _sRep = new ServiceRepository();
+            _sProduct = new ProductRepository();
+            _sTeam = new TeamRepository();
         }
         public ActionResult Index()
         {
             HomeVM hmvm = new HomeVM()
             {
-                Banner = _db.Banners.FirstOrDefault()
+                Banner = _Brep.FindLastData(),
+                Services=_sRep.GetActives(),
+                Products = _sProduct.GetActives(),
+                Teams = _sTeam.GetActives(),
+                
+
+                
             };
-            return View();
+            return View(hmvm);
         }
     }
 }
