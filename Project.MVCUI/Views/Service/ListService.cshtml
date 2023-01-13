@@ -1,0 +1,54 @@
+﻿@model ServiceVM 
+@{
+    ViewBag.Title = "ListService";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="card m-5">
+
+    <h5 class="card-header">Servisler</h5>
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>icon</th>
+                        <th>Ürün ismi</th>
+                        <th>Başlık</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Service item in @Model.Services)
+                    {
+                        <tr>
+                            <td><img width="50" height="50" title="@item.Title" src="@item.Icon" /></td>
+                            <td>@item.Title</td>
+                            <td>@item.Description</td>
+                            
+
+                            <td><span class="badge bg-label-primary me-1">@item.Status</span></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button"
+                                            class="btn p-0 dropdown-toggle hide-arrow"
+                                            data-bs-toggle="dropdown">
+                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="javascript:void(0);"> @Html.ActionLink("Update", "UpdateService", new { id = item.ID }, new { @class = "bx bx-edit-alt me-1 " })</a>
+                                        <a class="dropdown-item" href="javascript:void(0);"> @Html.ActionLink("Delete", "DeleteService", new { id = item.ID }, new { @class = "bx bx-trash me-1 " })</a>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

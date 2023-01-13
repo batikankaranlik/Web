@@ -1,0 +1,58 @@
+﻿@model ServiceVM
+@{
+    ViewBag.Title = "AddService";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style>
+    genislik {
+        width: 300px;
+    }
+</style>
+@using (Html.BeginForm("AddService", "Service", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="row m-5">
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading m-5">
+                    Servis ekle
+                </header>
+                <div class="form-group">
+                    <label class="col-sm-2">Resim Seçiniz</label>
+                    <div class="col-sm-10">
+                        <input type="file" name="resim" class="form-control" genislik />
+                    </div>
+                </div>
+                <br /><br />
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2">Servis Adı</label>
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(x => x.Service.Title, new { @class = "form-control genislik" })
+                        </div>
+                    </div>
+                    <br />
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label class="col-sm-2">Servis açıklama</label>
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(x => x.Service.Description, new { @class = "form-control genislik" })
+                            </div>
+                        </div>
+                        <br />
+                        
+                           
+                                <div class="form-group">
+
+                                    <div class="col-sm-10">
+                                        <button class="btn btn-primary">
+                                            Servis Ekle
+                                        </button>
+                                    </div>
+
+            </section>
+        </div>
+    </div>
+}
+
+

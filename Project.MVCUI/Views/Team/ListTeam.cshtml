@@ -1,0 +1,59 @@
+﻿@model TeamVM
+@{
+    ViewBag.Title = "ListTeam";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="card m-5">
+
+    <h5 class="card-header">Team</h5>
+    <div class="card-body">
+        <div class="table-responsive text-nowrap">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Resim</th>
+                        <th>isim-Soyisim</th>
+                        <th>başlık</th>
+                        <th>Twitter</th>
+                        <th>Facebook</th>
+                        <th>Linked</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Team item in @Model.Teams)
+                    {
+                        <tr>
+                            <td><img width="50" height="50" title="@item.NameSurname" src="@item.ProfileImage" /></td>
+                            <td>@item.NameSurname</td>
+                            <td>@item.Title</td>
+                            <td>@item.TwitterUrl</td>
+                            <td>@item.FacebookUrl</td>
+                            <td>@item.LinkedInUrl</td>
+
+
+                            <td><span class="badge bg-label-primary me-1">@item.Status</span></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button type="button"
+                                            class="btn p-0 dropdown-toggle hide-arrow"
+                                            data-bs-toggle="dropdown">
+                                        <i class="bx bx-dots-vertical-rounded"></i>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="javascript:void(0);"> @Html.ActionLink("Update", "UpdateTeam", new { id = item.ID }, new { @class = "bx bx-edit-alt me-1 " })</a>
+                                        <a class="dropdown-item" href="javascript:void(0);"> @Html.ActionLink("Delete", "DeleteTeam", new { id = item.ID }, new { @class = "bx bx-trash me-1 " })</a>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
