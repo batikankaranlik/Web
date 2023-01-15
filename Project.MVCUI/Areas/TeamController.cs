@@ -1,6 +1,7 @@
 ﻿using Project.BLL.DesignPatterns.genericRepository.ConcRep;
 using Project.COMMON.Tools;
 using Project.ENTITIES.Models;
+using Project.MVCUI.AuthenticationClasses;
 using Project.MVCUI.VMClasses;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Web.Mvc;
 
 namespace Project.MVCUI.Areas
 {
+    [AdminAuthentication]
     public class TeamController : Controller
     {
         TeamRepository _tRep;
@@ -47,8 +49,8 @@ namespace Project.MVCUI.Areas
         [HttpPost]
         public ActionResult UpdateTeam(Team team, HttpPostedFileBase resim)
         {
-            
-            if (resim==null)
+
+            if (resim == null)
             {
                 team.ProfileImage = _tRep.Find(team.ID).ProfileImage;
             }
@@ -56,7 +58,7 @@ namespace Project.MVCUI.Areas
             {
                 team.ProfileImage = ImageUploader.UploadImage("/Pictures", resim);
             }
-            
+
 
 
 

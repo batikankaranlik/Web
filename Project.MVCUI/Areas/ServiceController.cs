@@ -1,6 +1,7 @@
 ﻿using Project.BLL.DesignPatterns.genericRepository.ConcRep;
 using Project.COMMON.Tools;
 using Project.ENTITIES.Models;
+using Project.MVCUI.AuthenticationClasses;
 using Project.MVCUI.VMClasses;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Web.Mvc;
 
 namespace Project.MVCUI.Areas
 {
+    [AdminAuthentication]
     public class ServiceController : Controller
     {
         ServiceRepository _sRep;

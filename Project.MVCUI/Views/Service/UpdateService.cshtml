@@ -31,6 +31,7 @@
                         <label class="col-sm-2">service Başlık</label>
                         <div class="col-sm-10">
                             @Html.TextBoxFor(x => x.Service.Title, new { @class = "form-control genislik" })
+                            @Html.ValidationMessageFor(x => x.Service.Title)
                         </div>
                     </div>
                     <br /><br />
@@ -38,6 +39,7 @@
                         <label class="col-sm-2">Sevice Açıklaması</label>
                         <div class="col-sm-10">
                             @Html.TextBoxFor(x => x.Service.Description, new { @class = "form-control genislik" })
+                            @Html.ValidationMessageFor(x => x.Service.Description)
                         </div>
                     </div>
 

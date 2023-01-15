@@ -10,6 +10,7 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            ContextKey = "Project.DAL.ContextClasses.MyContext";
         }
 
         protected override void Seed(Project.DAL.ContextClasses.MyContext context)

@@ -1,6 +1,7 @@
 ﻿using Project.BLL.DesignPatterns.genericRepository.ConcRep;
 using Project.COMMON.Tools;
 using Project.ENTITIES.Models;
+using Project.MVCUI.AuthenticationClasses;
 using Project.MVCUI.VMClasses;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Web.Mvc;
 
 namespace Project.MVCUI.Areas
 {
+    [AdminAuthentication]
     public class ProductController : Controller
     {
         ProductRepository _pRep;
@@ -32,7 +34,7 @@ namespace Project.MVCUI.Areas
             return View(prvm);
         }
         [HttpPost]
-        public ActionResult AddProduct(Product product,HttpPostedFileBase resim)
+        public ActionResult AddProduct(Product product, HttpPostedFileBase resim)
         {
             product.ImageUrl = ImageUploader.UploadImage("/Pictures", resim);
             _pRep.Add(product);
@@ -66,6 +68,6 @@ namespace Project.MVCUI.Areas
             _pRep.Delete(_pRep.Find(id));
             return RedirectToAction("ListProduct");
         }
-        
+
     }
 }

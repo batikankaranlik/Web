@@ -1,5 +1,6 @@
 ﻿using Project.BLL.DesignPatterns.genericRepository.ConcRep;
 using Project.ENTITIES.Models;
+using Project.MVCUI.AuthenticationClasses;
 using Project.MVCUI.VMClasses;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using System.Web.Mvc;
 
 namespace Project.MVCUI.Areas
 {
+    [AdminAuthentication]
     public class BannerController : Controller
     {
         BannerRepository _bRep;
@@ -32,11 +34,12 @@ namespace Project.MVCUI.Areas
         {
             _bRep.Add(banner);
             return RedirectToAction("BannerPage");
-        }public ActionResult UpdateBanner()
+        }
+        public ActionResult UpdateBanner()
         {
             return View();
         }
-        
+
         public ActionResult DeleteBanner(int id)
         {
             _bRep.Destroy(_bRep.Find(id));

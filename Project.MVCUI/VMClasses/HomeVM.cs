@@ -12,5 +12,7 @@ namespace Project.MVCUI.VMClasses
         public List<Service> Services { get; set; }
         public List<Product> Products { get; set; }
         public List<Team> Teams { get; set; }
+        public Contact Contact { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }

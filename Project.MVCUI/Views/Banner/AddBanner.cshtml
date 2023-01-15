@@ -23,6 +23,7 @@
                     <label class="col-sm-2">Küçük başlık</label>
                     <div class="col-sm-10">
                         @Html.TextBoxFor(x => x.Banner.SmallTitle, new { @class = "form-control genislik" })
+                        @Html.ValidationMessageFor(x => x.Banner.SmallTitle)
                     </div>
                 </div>
                 <br />
@@ -31,6 +32,7 @@
                     <label class="col-sm-2">Büyük başlık</label>
                     <div class="col-sm-10">
                         @Html.TextBoxFor(x => x.Banner.BigTitle, new { @class = "form-control genislik" })
+                        @Html.ValidationMessageFor(x => x.Banner.BigTitle)
                     </div>
                 </div>
                     <br />
@@ -39,6 +41,7 @@
                     <label class="col-sm-2">Button Text</label>
                     <div class="col-sm-10">
                         @Html.TextBoxFor(x => x.Banner.ButtonText, new { @class = "form-control genislik" })
+                        @Html.ValidationMessageFor(x => x.Banner.ButtonText)
                     </div>
                 </div>
                         <br />
@@ -47,6 +50,7 @@
                                 <label class="col-sm-2">Button url</label>
                                 <div class="col-sm-10">
                                     @Html.TextBoxFor(x => x.Banner.ButtonUrl, new { @class = "form-control genislik" })
+                                    @Html.ValidationMessageFor(x => x.Banner.ButtonUrl)
                                 </div>
                             </div>
                             <div class="form-group">

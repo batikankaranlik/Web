@@ -18,6 +18,7 @@
                     <div class="col-sm-10">
                         <input type="file" name="resim" class="form-control" genislik />
                     </div>
+                    
                 </div>
                 <br /><br />
                 <div class="panel-body">
@@ -25,50 +26,59 @@
                         <label class="col-sm-2">İsim ve Soyisim</label>
                         <div class="col-sm-10">
                             @Html.TextBoxFor(x => x.Team.NameSurname, new { @class = "form-control genislik" })
+                            @Html.ValidationMessageFor(x => x.Team.NameSurname)
                         </div>
                     </div>
-                    <br />
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <label class="col-sm-2">Başlık</label>
-                            <div class="col-sm-10">
-                                @Html.TextBoxFor(x => x.Team.Title, new { @class = "form-control genislik" })
-                            </div>
+                </div>
+                <br />
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2">Başlık</label>
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(x => x.Team.Title, new { @class = "form-control genislik" })
+                            @Html.ValidationMessageFor(x => x.Team.Title)
                         </div>
-                        <br />
-                        <div class="panel-body">
-                            <div class="form-group">
-                                <label class="col-sm-2">Twitter</label>
-                                <div class="col-sm-10">
-                                    @Html.TextBoxFor(x => x.Team.TwitterUrl, new { @class = "form-control genislik" })
-                                </div>
-                            </div>
-                            <br />
-                            <div class="panel-body">
-                                <div class="form-group">
-                                    <label class="col-sm-2">Facebook</label>
-                                    <div class="col-sm-10">
-                                        @Html.TextBoxFor(x => x.Team.FacebookUrl, new { @class = "form-control genislik" })
-                                    </div>
-                                </div>
-                                <br />
-                                <div class="panel-body">
-                                    <div class="form-group">
-                                        <label class="col-sm-2">Linked</label>
-                                        <div class="col-sm-10">
-                                            @Html.TextBoxFor(x => x.Team.LinkedInUrl, new { @class = "form-control genislik" })
-                                        </div>
-                                    </div>
-                                    <br />
+                    </div>
+                </div>
+                <br />
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2">Twitter</label>
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(x => x.Team.TwitterUrl, new { @class = "form-control genislik" })
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2">Facebook</label>
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(x => x.Team.FacebookUrl, new { @class = "form-control genislik" })
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2">Linked</label>
+                        <div class="col-sm-10">
+                            @Html.TextBoxFor(x => x.Team.LinkedInUrl, new { @class = "form-control genislik" })
+                        </div>
+                    </div>
+                </div>-
+                <br />
 
 
-                                    <div class="form-group">
+                <div class="form-group">
 
-                                        <div class="col-sm-10">
-                                            <button class="btn btn-primary">
-                                                Team güncelle
-                                            </button>
-                                        </div>
+                    <div class="col-sm-10">
+                        <button class="btn btn-primary">
+                            Team güncelle
+                        </button>
+                    </div>
+                </div>
+
 
             </section>
         </div>
