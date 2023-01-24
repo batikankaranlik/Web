@@ -17,7 +17,7 @@ namespace Project.DAL.StrategyPattern
             au.Active = true;
             au.UserName = "BK";
             au.Password = "123";
-            au.Email = "xxxxxx";
+            au.Email = "xxxxxx@hotmail.com";
             
             au.Role = ENTITIES.Enums.UserRole.Admin;
 
@@ -28,7 +28,7 @@ namespace Project.DAL.StrategyPattern
             ap.Active = true;
             ap.UserName = "dgk";
             ap.Password = "123";
-            ap.Email = "xxxxxx";
+            ap.Email = "xxxxxx@hotmail.com";
             ap.Role = ENTITIES.Enums.UserRole.Member;
 
             context.AppUsers.Add(ap);
